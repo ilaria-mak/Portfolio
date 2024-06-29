@@ -1,0 +1,143 @@
+:root {
+  --primary-color: #1e1636;
+  --text-color: #a7c957;
+  --hover-color: #0ae2ff;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: "Nova Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text-color);
+}
+
+.collapse {
+  /*Elementi del dropdown allineati a dx*/
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar .navbar-brand {
+  color: var(--navbar-color);
+}
+
+.nav-link {
+  color: var(--text-color);
+}
+
+.nav-link.active {
+  color: var(--hover-color) !important;
+}
+
+.nav-link:hover {
+  color: var(--hover-color);
+}
+
+#bio {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  width: 100%;
+  padding: 50px 0;
+}
+
+.container-bio {
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;*/
+  margin-top: 60px;
+  width: 900px;
+}
+
+.container-bio h2 {
+  font-size: 20px;
+  font-style: italic;
+  line-height: 32px;
+  margin-top: 10px;
+}
+
+.image-bio {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+footer {
+  width: 800px;
+  padding-top: 0px !important;
+}
+
+footer li {
+  list-style: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+a:hover {
+  color: var(--hover-color);
+}
+
+.grid {
+  padding: 0px;
+}
+
+button {
+  background-color: var(--text-color) !important;
+  margin: 70px 200px 70px 900px;
+  border: 0px !important;
+  padding: 12px 20px !important;
+}
+
+button:hover {
+  color: var(--text-color) !important;
+  background-color: var(--primary-color) !important;
+}
+
+.logo {
+  width: 15px;
+  border-radius: 30%;
+}
+
+#experience {
+  width: 1200px;
+  height: auto;
+  margin: 80px 100px;
+  padding: 40px 80px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-experience {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+  object-fit: cover;
+}
+
+.container-proj {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.weather-app-img {
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
